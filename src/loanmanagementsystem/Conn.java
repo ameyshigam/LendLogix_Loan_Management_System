@@ -7,7 +7,7 @@ Statement s;
 public Conn() {
 try {
 	
-	c= DriverManager.getConnection("jdbc:mysql://localhost:3306/lendlogix","root","Shigam152028");//enter your user mostly root and its password
+	c= DriverManager.getConnection("jdbc:mysql://localhost:3306/***","root","***");//enter your user mostly root and its password
 	s =c.createStatement();
 	
 	
